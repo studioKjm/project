@@ -1,4 +1,5 @@
 document.addEventListener("DOMContentLoaded", () => {
+<<<<<<< HEAD
     console.log("MyApp loaded: feature/alerts-and-modal");
   
     const btnAlert = document.getElementById("btn-alert");
@@ -31,5 +32,9 @@ document.addEventListener("DOMContentLoaded", () => {
     window.addEventListener("keydown", (e) => {
       if (e.key === "Escape") closeModal();
     });
+=======
+    console.log("MyApp loaded: feature/ui-main");
+    // 다음 브랜치에서 기능 바인딩이 활성화됩니다.
+>>>>>>> dd3acf2d1dfd76b34ac9d80567e65d0c89fe7938
   });
   
